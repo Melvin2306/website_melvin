@@ -1,0 +1,9 @@
+/* tailwind maybe?? */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@layer components {
+    #__next {
+        @apply h-screen;
+    }
+}
